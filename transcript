@@ -1,0 +1,352 @@
+# Compile of HA.vhd was successful.
+# Compile of ha_test.vhd failed with 1 errors.
+# Compile of ha_test.vhd failed with 3 errors.
+# Compile of ha_test.vhd failed with 1 errors.
+# Compile of ha_test.vhd was successful.
+vsim -gui work.ha_test
+# vsim -gui work.ha_test 
+# Start time: 19:57:55 on Oct 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ha_test(arch)
+# Loading work.ha(arch)
+add wave -position insertpoint  \
+sim:/ha_test/A \
+sim:/ha_test/B \
+sim:/ha_test/S \
+sim:/ha_test/Cout
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftys8g2v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftys8g2v
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/wave.do}
+# Compile of AND_gate.vhd was successful.
+# Compile of AND_gate_test.vhd failed with 21 errors.
+# Compile of AND_gate_test.vhd failed with 21 errors.
+# Compile of AND_gate_test.vhd failed with 21 errors.
+# Compile of AND_gate_test.vhd failed with 7 errors.
+# Compile of AND_gate_test.vhd failed with 7 errors.
+# Compile of AND_gate_test.vhd was successful.
+vsim -gui work.and_gate_test
+# End time: 20:21:21 on Oct 08,2024, Elapsed time: 0:23:26
+# Errors: 0, Warnings: 19
+# vsim -gui work.and_gate_test 
+# Start time: 20:21:21 on Oct 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.and_gate_test(arch)
+# Loading work.and_gate(arch)
+add wave -position insertpoint  \
+sim:/and_gate_test/A \
+sim:/and_gate_test/B \
+sim:/and_gate_test/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftvrhf06".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvrhf06
+run
+# Compile of fa_test.vhd was successful.
+# Compile of multiplier_circuit.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd failed with 3 errors.
+# Compile of multiplier_circuit_testbench.vhd failed with 3 errors.
+# Compile of multiplier_circuit_testbench.vhd failed with 2 errors.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 05:06:04 on Oct 09,2024, Elapsed time: 8:44:43
+# Errors: 0, Warnings: 11
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:06:04 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /multiplier_circuit_testbench/DUT/F(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftg9kmf7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg9kmf7
+run
+# Compile of multiplier_circuit_testbench.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 05:16:46 on Oct 09,2024, Elapsed time: 0:10:42
+# Errors: 0, Warnings: 5
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:16:46 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /multiplier_circuit_testbench/DUT/F(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftjv7sey".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjv7sey
+run
+# Compile of multiplier_circuit.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+quit -sim
+# End time: 05:20:31 on Oct 09,2024, Elapsed time: 0:03:45
+# Errors: 0, Warnings: 7
+vsim -gui work.multiplier_circuit_testbench
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:20:46 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft8sbmsv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8sbmsv
+run
+# Compile of multiplier_circuit.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 05:51:11 on Oct 09,2024, Elapsed time: 0:30:25
+# Errors: 0, Warnings: 5
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:51:11 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftx2a0se".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx2a0se
+run
+# Compile of multiplier_circuit.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 05:52:54 on Oct 09,2024, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 5
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:52:54 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /multiplier_circuit_testbench/DUT/F(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 05:54:29 on Oct 09,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 2
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:54:29 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /multiplier_circuit_testbench/DUT/F(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# Compile of multiplier_circuit.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 05:55:44 on Oct 09,2024, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 3
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 05:55:44 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftm16w4w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm16w4w
+run
+# Compile of multiplier_circuit_testbench.vhd was successful.
+# Compile of multiplier_circuit.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 06:10:01 on Oct 09,2024, Elapsed time: 0:14:17
+# Errors: 0, Warnings: 5
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 06:10:01 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftgx9c3j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgx9c3j
+run
+# Compile of multiplier_circuit.vhd was successful.
+vsim -gui work.multiplier_circuit
+# End time: 06:12:33 on Oct 09,2024, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 4
+# vsim -gui work.multiplier_circuit 
+# Start time: 06:12:33 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+add wave -position insertpoint  \
+sim:/multiplier_circuit/A \
+sim:/multiplier_circuit/B \
+sim:/multiplier_circuit/F \
+sim:/multiplier_circuit/ROW1 \
+sim:/multiplier_circuit/ROW2 \
+sim:/multiplier_circuit/ROW3 \
+sim:/multiplier_circuit/ROW4 \
+sim:/multiplier_circuit/CARRY \
+sim:/multiplier_circuit/PART_SUM \
+sim:/multiplier_circuit/PRODUCT
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftdaid2m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdaid2m
+run
+vsim -gui work.multiplier_circuit_testbench
+# End time: 06:13:16 on Oct 09,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 3
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 06:13:16 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftvr2btk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvr2btk
+run
+# Compile of ha_test.vhd was successful.
+# Compile of multiplier_circuit.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 06:17:06 on Oct 09,2024, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 6
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 06:17:06 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlftbsc2c9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbsc2c9
+run
+# Compile of multiplier_circuit.vhd was successful.
+# Compile of multiplier_circuit_testbench.vhd was successful.
+vsim -gui work.multiplier_circuit_testbench
+# End time: 19:55:10 on Oct 09,2024, Elapsed time: 13:38:04
+# Errors: 0, Warnings: 5
+# vsim -gui work.multiplier_circuit_testbench 
+# Start time: 19:55:10 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier_circuit_testbench(arch)
+# Loading work.multiplier_circuit(arch)
+# Loading work.fa(arch)
+# Loading work.ha(arch)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/multiplier_circuit_testbench/A \
+sim:/multiplier_circuit_testbench/B \
+sim:/multiplier_circuit_testbench/F
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anton  Hostname: MSI  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft5gam2j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5gam2j
+run

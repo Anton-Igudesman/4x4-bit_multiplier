@@ -1,0 +1,341 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab3
+Eand_gate
+Z0 w1728443111
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+Z3 dC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4
+Z4 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate.vhd
+Z5 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate.vhd
+l0
+L4 1
+VPGX2[W1M8SH2DDe6j161P0
+!s100 =4f?LR7@Wn?S_0DY1GVbS3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1728443653
+!i10b 1
+Z8 !s108 1728443653.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate.vhd|
+Z10 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+DEx4 work 8 and_gate 0 22 PGX2[W1M8SH2DDe6j161P0
+!i122 11
+l10
+L9 4
+VQAX<h9GoD9:2LZ?Ooe9?V2
+!s100 ;TZa5XgL_2<C>VO[:RLh03
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_gate_test
+Z13 w1728444038
+R1
+R2
+!i122 17
+R3
+Z14 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate_test.vhd
+Z15 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate_test.vhd
+l0
+L4 1
+VRL=B>JQH^VOCm`J52[Xe>1
+!s100 @AhP8kiha^6J5Dnb[IkHa1
+R6
+32
+Z16 !s110 1728444044
+!i10b 1
+Z17 !s108 1728444044.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate_test.vhd|
+Z19 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/AND_gate_test.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 13 and_gate_test 0 22 RL=B>JQH^VOCm`J52[Xe>1
+!i122 17
+l15
+Z20 L7 27
+ViJk1STM<O?GEXVMa=3PW20
+!s100 K>4[HY6JXgDEiZ93i0kNR2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Efa
+Z21 w1728361946
+R1
+R2
+!i122 0
+R3
+Z22 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/FA.vhd
+Z23 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/FA.vhd
+l0
+L4 1
+VkmPQEz67IaAD=C0d?CSzd1
+!s100 gWLX@NnaQz;Nk4@02iKL33
+R6
+32
+Z24 !s110 1728363253
+!i10b 1
+Z25 !s108 1728363253.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/FA.vhd|
+Z27 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/FA.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 2 fa 0 22 kmPQEz67IaAD=C0d?CSzd1
+!i122 0
+l10
+L9 5
+V2KmX^]4HG=Ubn:fm3N=^:3
+!s100 o=zBT0X;cXPKGUEBSejU41
+R6
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Efa_test
+Z28 w1728363675
+R1
+R2
+!i122 18
+R3
+Z29 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/fa_test.vhd
+Z30 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/fa_test.vhd
+l0
+L4 1
+V[TlNX94lA?4iCag1<XkJG2
+!s100 =>l5>oZo<=LFfFbb=_TRY3
+R6
+32
+Z31 !s110 1728473887
+!i10b 1
+Z32 !s108 1728473886.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/fa_test.vhd|
+Z34 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/fa_test.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 7 fa_test 0 22 [TlNX94lA?4iCag1<XkJG2
+!i122 18
+l14
+L7 36
+V4T]E25F?;NQa::GRZhg3W0
+!s100 ML=AJnKJ2Vo1jJf`W^No13
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Eha
+Z35 w1728440784
+R1
+R2
+!i122 6
+R3
+Z36 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/HA.vhd
+Z37 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/HA.vhd
+l0
+L4 1
+VggB?>V6LT=P@og<SSD?Sj2
+!s100 KUI=z3BPI`kj1M^>UU9`e3
+R6
+32
+Z38 !s110 1728442498
+!i10b 1
+Z39 !s108 1728442498.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/HA.vhd|
+Z41 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/HA.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 2 ha 0 22 ggB?>V6LT=P@og<SSD?Sj2
+!i122 6
+l10
+L9 5
+VbGWHGi2;26L<J[jIb`AO>1
+!s100 >liBCLH>`EjlUWm1ENbcW0
+R6
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12
+Eha_test
+Z42 w1728442641
+R1
+R2
+!i122 35
+R3
+Z43 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/ha_test.vhd
+Z44 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/ha_test.vhd
+l0
+L4 1
+VGWLcjo`kJNzGb[i?7bzJ]3
+!s100 ^^l0hgVLcY6X2nN<9LobQ0
+R6
+32
+Z45 !s110 1728479794
+!i10b 1
+Z46 !s108 1728479794.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/ha_test.vhd|
+Z48 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/ha_test.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 7 ha_test 0 22 GWLcjo`kJNzGb[i?7bzJ]3
+!i122 35
+l15
+R20
+VTG2hCbYhM;0D=N<oGkW9^3
+!s100 ESzdFe[ocYgnZgGi7KPI^1
+R6
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Emultiplier_circuit
+Z49 w1728528848
+R1
+R2
+!i122 38
+R3
+Z50 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit.vhd
+Z51 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit.vhd
+l0
+L4 1
+VoFi3g647P1W0YC52TJ[Pb0
+!s100 6EfCJQVlQh9oXPMz9bYTQ0
+R6
+32
+Z52 !s110 1728528859
+!i10b 1
+Z53 !s108 1728528859.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit.vhd|
+Z55 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 18 multiplier_circuit 0 22 oFi3g647P1W0YC52TJ[Pb0
+!i122 38
+l33
+L10 71
+V=BHJ=fDURz52YQWA:0X:W0
+!s100 ?B??G9RJzL6j3=1<fKKiP0
+R6
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R11
+R12
+Emultiplier_circuit_testbench
+Z56 w1728479353
+Z57 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 39
+R3
+Z58 8C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit_testbench.vhd
+Z59 FC:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit_testbench.vhd
+l0
+L5 1
+V2?f_NIZ4jbd268oA5=Q@X0
+!s100 W`jTWoZi1UiQl>5CcK5Ck0
+R6
+32
+Z60 !s110 1728528867
+!i10b 1
+Z61 !s108 1728528867.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit_testbench.vhd|
+Z63 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/Lab4/multiplier_circuit_testbench.vhd|
+!i113 1
+R11
+R12
+Aarch
+R57
+R1
+R2
+Z64 DEx4 work 28 multiplier_circuit_testbench 0 22 2?f_NIZ4jbd268oA5=Q@X0
+!i122 39
+l18
+Z65 L8 28
+Z66 VV3J;I9=3fhRRcAX;h]ccR0
+Z67 !s100 QWj2R1zna@6>3Fj?i7bG51
+R6
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R11
+R12
